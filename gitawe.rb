@@ -1,1 +1,3 @@
-puts "Git #{ARGV.first}"
+name = ARGV.first || "Awesomeness"
+
+puts "Git #{name}"
