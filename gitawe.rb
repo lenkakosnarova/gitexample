@@ -1,1 +1,1 @@
-puts "Git Awesomeness"
+puts "Git #{ARGV.first}"
