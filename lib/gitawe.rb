@@ -1,5 +1,8 @@
+require 'awesomeclass'
+
 # Default is "Awesomeness"
 # Author is the bad cop (ohhoh badcop@gitawe)
-name = ARGV.first || "Awesomeness, yeah"
+name = ARGV.first || "yeah"
 
-puts "Git #{name}"
+awesomeclass = Awesomeclass.new(name)
+puts awesomeclass.awesome
