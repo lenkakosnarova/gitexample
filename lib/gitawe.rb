@@ -1,5 +1,5 @@
 # Default is "Awesomeness"
 # Author is the bad cop (ohhoh badcop@gitawe)
-name = ARGV.first || "Awesomeness"
+name = ARGV.first || "Awesomeness, yeah"
 
 puts "Git #{name}"
